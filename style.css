@@ -1,0 +1,247 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+img{
+   margin: 0px;
+    height:fit-content;
+    width: 1564px;
+    
+}
+/* #navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding:8px 0px;
+
+    
+} */
+#navbar ul{
+    display: flex;
+    height: 42px;
+    background-color: black;
+    opacity: 0.5;
+}
+#navbar ul li{
+    font-size: 150%;
+    list-style: none;
+    padding: 2px 20px ;
+
+    
+}
+#navbar ul li a{
+    cursor: pointer;
+    color: white;
+    padding: 5px 5px;
+        font-family: 'Baloo Da 2', cursive;
+    }
+#navbar::before{
+    content:"";
+    background-color:black;
+    position: absolute;
+    height: 77%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+
+}
+
+#navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 5px 5px;
+    box-shadow: 2px 2px 8px grey;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    
+    justify-content:center ;
+    align-items: center;
+
+}
+#home h1{
+    color: white;
+    text-align: center;
+        font-family: 'Baloo Da 2', cursive;
+    }
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Baloo Da 2', cursive;}
+#home::before{
+     content:"";
+    background:url(./background-food.png) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    
+}
+/* service section */
+#services{
+    margin: 220px 20px 50px 20px;  
+}
+.main{
+    display: flex;
+}
+#services .box{
+    border:1px solid rgb(240, 151, 151);
+    border-radius: 20px;
+    padding: 0px 0px 20px 0px;
+    box-shadow: 4px 4px 20px grey;
+}
+#services .box img{
+    height: 300px;
+    width:400px;
+    border-radius:20px 20px 0px 0px;
+    
+
+}
+#services .main .box{
+    margin: 10px 38px;
+
+}
+.h-primary{
+    
+    font-size:2.5rem ;
+    padding: 15px;
+
+}
+.h-secondary-head{
+    font-family: 'Baloo Da 2', cursive;
+    font-size:2.1rem ;
+    padding: 10px;
+}
+.h-secondary-para{
+    font-family: 'Baloo Da 2', cursive;
+    font-size:1.2rem ;
+    padding: 10px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 20px;
+    border:none;
+    background-color: rgb(94, 230, 94);
+    margin:5px auto;
+    border-radius: 5px;
+    height: 40px;
+    width: 170px;
+    font-size: 1.2rem;
+    font-family: 'Baloo Da 2', cursive;
+    }
+.btn:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+    font-family: 'Baloo Da 2', cursive;
+    color:black;
+    font-size: 2.5rem;
+
+}
+.label{
+    position: relative;
+    width:70px;
+    background-color: cyan;
+}
+.footer{
+    border: 1px solid black;
+ 
+    display: flex;
+    /* justify-content: center; */
+}
+.footer form{
+margin-left: 100px;
+}
+.footer input{
+    margin:10px 0px 10px 0px;
+    border-radius: 2px;
+    width: 400px;
+    height: 20px;
+    background:transparent;
+    font-family: 'Baloo Da 2', cursive;
+    border: 1px solid black;
+
+}
+.footer label{
+        font-family: 'Baloo Da 2', cursive;
+
+}
+.footer #fmessage{
+    height: 100px;
+}
+.footer::before{
+    content:"";
+    background:url(./img.4.jfif) no-repeat center center/cover;
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    
+}
+.footer button{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 0px;
+    border:none;
+    background-image: linear-gradient(135deg,pink,cyan);
+    margin:5px auto;
+    border-radius: 5px;
+    height: 40px;
+    width: 180px;
+    font-size: 1.2rem;
+    font-family: 'Baloo Da 2', cursive;
+    cursor: pointer;
+
+}
+.footer button input{
+    height: 40px;
+    width:170px;
+    border: none;
+}
+.footer button input:hover{
+    transform: scale(1.2);
+}
+.footer button:hover{
+    transform: scale(1.2);
+}
+.sideview .ul1{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom:80px ;
+}
+.sideview .ul2{
+    margin-bottom:50px ;
+    margin-left: 50px;
+    
+}
+.sideview ul{
+      font-family: 'Baloo Da 2', cursive;
+}
+.sideview ul h2{
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.lastview .logo{
+    margin-left: 230px;
+    margin-top: 30px;
+    font-family: 'Baloo Da 2', cursive;
+    text-decoration: underline;
+}
+.lastview h1{
+    
+    margin-left:120px;
+    margin-bottom: 20px;
+}
